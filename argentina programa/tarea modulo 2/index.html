@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!--botstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+
+<body>
+  <!--nav-->
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <a style="color: #272b30;" class="navbar-brand" href="#">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a style="color: rgb(228, 228, 228);" class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(228, 228, 228);" class="nav-link" href="#por">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(228, 228, 228);" class="nav-link" href="#for">Formulario</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+          <button class="btn btn-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--nav-->
+  <div style="width: 100%; height: 100vh; text-align: center;" class="p-3 mb-2 bg-dark text-white">
+    <div style="margin-top: 15vh;">
+    <h1>Jeremias Gonzalez</h1>
+    <img style="width: 200px; height: 200px; margin-top: 5vh;" src="img/imagen.png" class="img-fluid" alt="imagen">
+  </div>
+  </div>
+  <!--portafolio-->
+<div class="p-3 mb-2 bg-white text-dark" style="height: 100vh; width: 100%;" id="por">
+  <div style="margin-top: 1vh;">
+<p class="h2" style="text-align: center; margin-bottom: 3vh;">portafolio</p>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="img/html.png" class="img-fluid" alt="logo de html">
+      </div>
+      <div class="col">
+        <img src="img/js.png" class="img-fluid" alt="logo de javascript">
+      </div>
+      <div class="col">
+        <img src="img/css.png" class="img-fluid" alt="logo de css">
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="img/python.png" class="img-fluid" alt="logo de python">
+      </div>
+      <div class="col">
+        <img src="img/c.png" class="img-fluid" alt="logo de c">
+      </div>
+      <div class="col">
+        <img src="img/php.png" class="img-fluid" alt="logo de php">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--caja negra-->
+<div class="p-3 mb-2 bg-dark text-white" style="width: 100%; height: 1vh;"></div>
+<!--caja negra-->
+
+<!--formulario-->
+<div style="height: 80vh; width: 100%;" class="p-3 mb-2 bg-light text-dark" id="for">
+  <div style="margin-left: 25vw;">
+    <form style="width: 40vw;">
+      <div class="form-group">
+        <p class="fs-4 text-center">Iniciar Sesion</p>
+        <label for="exampleInputEmail1">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+        <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Acepto Los <a href="#">Terminos</a></label>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+      <p>no tienes cuenta?<a href="#" class="link-primary"> Registrarse</a></p>
+    </form>
+</div>
+</div>
+<!--footer-->
+<div style="width: 100%; ">
+<footer class="bg-primary text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Footer text</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+          aliquam voluptatem veniam, est atque cumque eum delectus sint!
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Footer text</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+          aliquam voluptatem veniam, est atque cumque eum delectus sint!
+        </p>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.4);">
+    © 2022 Copyright:
+    <a class="text-dark" href="#">JeremiasGonzalez.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</div>
+<!--footer-->
+<!--bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
